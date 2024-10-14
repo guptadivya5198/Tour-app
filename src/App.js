@@ -20,8 +20,9 @@ function App() {
     )
   }
   return (
-    <div>
+    <div >
       <Tours tours = {tours} removeTour={removeTour}/>
+      
     </div>
   );
 }
