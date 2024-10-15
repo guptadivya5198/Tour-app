@@ -22,7 +22,7 @@ const Card = ({ id, name, price, info, image, removeTour }) => {
           {readmore ? `Show less` : `Read more`}
         </span>
       </div>
-      <div className="border border-red-600 mt-3 text-center justify-center items-center mx-auto bg-red-200 rounded-lg font-bold text-base p-1 w-[70%]">
+      <div className="border border-red-600 mt-3  hover:cursor-pointer text-center justify-center items-center mx-auto bg-red-200 rounded-lg font-bold text-base p-1 w-[70%]">
         <button onClick={() => removeTour(id)}>Not Intrested</button>
       </div>
     </div>
